@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Deen | Islamic Portal</title>
+    <style>
+        /* CSS Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        header {
+            background-color: #006747; /* Islamic Green */
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #004d35;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1542810634-71277d95dcbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            border-top: 4px solid #006747;
+        }
+
+        .prayer-time table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .prayer-time th, .prayer-time td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+
+        .btn {
+            background: #006747;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>আল-দীন</h1>
+    <p>ইসলামিক জীবনযাপনের সঠিক পথ</p>
+</header>
+
+<nav>
+    <a href="#">হোম</a>
+    <a href="#">কুরআন</a>
+    <a href="#">হাদিস</a>
+    <a href="#">নামাজের সময়</a>
+    <a href="#">দোয়া</a>
+</nav>
+
+<section class="hero">
+    <div>
+        <h2>"নিশ্চয়ই আল্লাহর স্মরণেই অন্তর প্রশান্ত হয়"</h2>
+        <p>আল-কুরআন, ১৩:২৮</p>
+    </div>
+</section>
+
+<div class="container">
+    <div class="grid">
+        <div class="card">
+            <h3>আজকের হাদিস</h3>
+            <p>"তোমাদের মধ্যে সেই ব্যক্তিই সর্বোত্তম, যে কুরআন শেখে এবং অন্যকে শেখায়।"</p>
+            <small>— সহিহ বুখারী</small>
+        </div>
+
+        <div class="card prayer-time">
+            <h3>নামাজের সময়সূচী (ঢাকা)</h3>
+            <table>
+                <tr><td>ফজর</td><td>৫:২০ AM</td></tr>
+                <tr><td>যোহর</td><td>১২:১০ PM</td></tr>
+                <tr><td>আসর</td><td>৩:৫০ PM</td></tr>
+                <tr><td>মাগরিব</td><td>৫:৪০ PM</td></tr>
+                <tr><td>এশা</td><td>৭:০০ PM</td></tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <h3>কুরআন তিলাওয়াত</h3>
+            <p>সহজ বাংলা অনুবাদসহ কুরআন পড়ুন এবং অনুধাবন করুন।</p>
+            <a href="#" class="btn">পড়ুন</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; ২০২৬ আল-দীন ইসলামিক পোর্টাল। সর্বস্বত্ব সংরক্ষিত।</p>
+</footer>
+
+</body>
+</html>
